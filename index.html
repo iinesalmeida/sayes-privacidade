@@ -1,12 +1,11 @@
-
-raw
-Index · HTML
 <!DOCTYPE html>
-<html lang="pt">
+
+<html lang="pt-PT">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>saYes — Política de Privacidade e Termos</title>
+<title>saYes — Política de Privacidade e Termos de Serviço</title>
+<meta name="description" content="Política de Privacidade e Termos de Serviço da aplicação saYes.">
 <style>
   :root {
     --bg: #07070F;
@@ -16,142 +15,288 @@ Index · HTML
     --dim: #A0A0B0;
     --stroke: #2A2A3A;
   }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.7;
-    padding: 0 0 60px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   }
-  header {
-    text-align: center;
-    padding: 50px 20px 30px;
-    border-bottom: 1px solid var(--stroke);
-  }
-  header h1 {
-    font-size: 34px;
-    letter-spacing: 1px;
-  }
-  header h1 .gold { color: var(--gold); }
-  header p { color: var(--dim); margin-top: 8px; font-size: 14px; }
-  .container { max-width: 760px; margin: 0 auto; padding: 0 22px; }
-  nav {
-    display: flex; gap: 12px; justify-content: center;
-    margin: 30px 0; flex-wrap: wrap;
-  }
-  nav a {
-    color: var(--gold); text-decoration: none;
-    border: 1px solid var(--stroke); padding: 8px 18px;
-    border-radius: 20px; font-size: 14px; transition: .2s;
-  }
-  nav a:hover { background: var(--card); }
-  section { margin-top: 40px; }
-  section > h2 {
-    font-size: 24px; color: var(--gold);
-    margin-bottom: 6px; padding-bottom: 10px;
-    border-bottom: 1px solid var(--stroke);
-  }
-  .updated { color: var(--dim); font-size: 13px; margin-bottom: 20px; }
-  article { margin-top: 22px; }
-  article h3 { font-size: 17px; margin-bottom: 6px; }
-  article p { color: var(--dim); font-size: 15px; }
-  footer {
-    text-align: center; margin-top: 50px;
-    color: var(--dim); font-size: 13px;
-    border-top: 1px solid var(--stroke); padding-top: 24px;
-  }
-  footer a { color: var(--gold); text-decoration: none; }
-</style>
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+background: var(--bg);
+color: var(--text);
+line-height: 1.7;
+padding: 0 0 60px;
+}
+
+header {
+text-align: center;
+padding: 50px 20px 30px;
+border-bottom: 1px solid var(--stroke);
+}
+
+header h1 {
+font-size: 34px;
+letter-spacing: 1px;
+}
+
+header h1 .gold {
+color: var(--gold);
+}
+
+header p {
+color: var(--dim);
+margin-top: 8px;
+font-size: 14px;
+}
+
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 0 22px;
+}
+
+nav {
+display: flex;
+gap: 12px;
+justify-content: center;
+margin: 30px 0;
+flex-wrap: wrap;
+}
+
+nav a {
+color: var(--gold);
+text-decoration: none;
+border: 1px solid var(--stroke);
+padding: 8px 18px;
+border-radius: 20px;
+font-size: 14px;
+transition: .2s;
+}
+
+nav a:hover {
+background: var(--card);
+}
+
+section {
+margin-top: 40px;
+}
+
+section > h2 {
+font-size: 24px;
+color: var(--gold);
+margin-bottom: 6px;
+padding-bottom: 10px;
+border-bottom: 1px solid var(--stroke);
+}
+
+.updated {
+color: var(--dim);
+font-size: 13px;
+margin-bottom: 20px;
+}
+
+article {
+margin-top: 22px;
+padding: 18px;
+background: var(--card);
+border: 1px solid var(--stroke);
+border-radius: 14px;
+}
+
+article h3 {
+font-size: 17px;
+margin-bottom: 6px;
+color: var(--text);
+}
+
+article p,
+article li {
+color: var(--dim);
+font-size: 15px;
+}
+
+ul {
+margin-left: 20px;
+margin-top: 8px;
+}
+
+a {
+color: var(--gold);
+}
+
+footer {
+text-align: center;
+margin-top: 50px;
+color: var(--dim);
+font-size: 13px;
+border-top: 1px solid var(--stroke);
+padding-top: 24px;
+}
+
+footer a {
+color: var(--gold);
+text-decoration: none;
+} </style>
+
 </head>
+
 <body>
   <header>
     <h1>sa<span class="gold">Yes</span></h1>
     <p>Política de Privacidade &amp; Termos de Serviço</p>
   </header>
- 
+
   <div class="container">
     <nav>
       <a href="#privacidade">Política de Privacidade</a>
       <a href="#termos">Termos de Serviço</a>
+      <a href="#contacto">Contacto</a>
     </nav>
- 
-    <section id="privacidade">
-      <h2>Política de Privacidade</h2>
-      <p class="updated">Última atualização: junho de 2026</p>
- 
-      <article>
-        <h3>1. Quem somos</h3>
-        <p>A SAYES é uma aplicação de fitness e dança criada por Yeniffer Campos. Esta política explica como tratamos os teus dados pessoais, em conformidade com o Regulamento Geral de Proteção de Dados (RGPD).</p>
-      </article>
-      <article>
-        <h3>2. Que dados recolhemos</h3>
-        <p>Recolhemos: o teu nome e email (para criar a conta); o teu objetivo, nível e faixa etária (para personalizar os treinos); e o teu histórico de treinos e créditos (para o funcionamento da app). Não recolhemos dados de localização nem acedemos aos teus contactos.</p>
-      </article>
-      <article>
-        <h3>3. Como usamos os dados</h3>
-        <p>Os teus dados são usados apenas para: criar e gerir a tua conta, personalizar a tua experiência de treino, processar a compra de créditos e melhorar a app. Nunca vendemos os teus dados a terceiros.</p>
-      </article>
-      <article>
-        <h3>4. Onde guardamos os dados</h3>
-        <p>Os teus dados são guardados de forma segura nos servidores da Google Firebase, com encriptação. Os vídeos das aulas são alojados de forma segura e transmitidos apenas a utilizadores autenticados.</p>
-      </article>
-      <article>
-        <h3>5. Os teus direitos</h3>
-        <p>Tens o direito de aceder, corrigir, exportar e eliminar os teus dados a qualquer momento, diretamente nas Definições de Conta da app. Podes também retirar o teu consentimento quando quiseres.</p>
-      </article>
-      <article>
-        <h3>6. Retenção</h3>
-        <p>Mantemos os teus dados enquanto a tua conta estiver ativa. Se eliminares a conta, os teus dados são apagados de forma permanente.</p>
-      </article>
-      <article>
-        <h3>7. Contacto</h3>
-        <p>Para qualquer questão sobre os teus dados ou esta política, contacta-nos através de info@sayesfitness.com.</p>
-      </article>
-    </section>
- 
-    <section id="termos">
-      <h2>Termos de Serviço</h2>
-      <p class="updated">Última atualização: junho de 2026</p>
- 
-      <article>
-        <h3>1. Aceitação dos termos</h3>
-        <p>Ao criar uma conta e usar a aplicação SAYES, aceitas estes Termos de Serviço. Se não concordares, não deves usar a aplicação.</p>
-      </article>
-      <article>
-        <h3>2. A tua conta</h3>
-        <p>És responsável por manter a confidencialidade da tua conta e palavra-passe. Deves ter pelo menos 18 anos para usar a SAYES. As informações que forneces devem ser verdadeiras e atualizadas.</p>
-      </article>
-      <article>
-        <h3>3. Créditos e pagamentos</h3>
-        <p>A SAYES funciona com um sistema de créditos. Cada aula desbloqueada custa créditos e fica disponível para sempre na tua conta. Os créditos adquiridos não são reembolsáveis, exceto quando exigido por lei.</p>
-      </article>
-      <article>
-        <h3>4. Uso do conteúdo</h3>
-        <p>Os vídeos e conteúdos da SAYES são propriedade da SAYES e da Yeniffer Campos. Destinam-se ao teu uso pessoal. Não podes copiar, partilhar, redistribuir ou reproduzir publicamente o conteúdo.</p>
-      </article>
-      <article>
-        <h3>5. Saúde e segurança</h3>
-        <p>Os treinos da SAYES são de natureza física. Antes de iniciar qualquer programa de exercício, deves consultar um médico, especialmente se tiveres condições de saúde. A SAYES não se responsabiliza por lesões decorrentes do uso da app. Treina dentro dos teus limites.</p>
-      </article>
-      <article>
-        <h3>6. Limitação de responsabilidade</h3>
-        <p>A SAYES é fornecida "tal como está". Esforçamo-nos por manter o serviço disponível e seguro, mas não garantimos que esteja sempre livre de erros ou interrupções.</p>
-      </article>
-      <article>
-        <h3>7. Alterações</h3>
-        <p>Podemos atualizar estes termos. Avisaremos sobre alterações significativas. O uso continuado da app após alterações significa que aceitas os novos termos.</p>
-      </article>
-      <article>
-        <h3>8. Contacto</h3>
-        <p>Para qualquer questão sobre estes termos, contacta-nos através de info@sayesfitness.com.</p>
-      </article>
-    </section>
- 
-    <footer>
-      <p>© 2026 saYes · Yeniffer Campos<br>
-      Contacto: <a href="mailto:info@sayesfitness.com">info@sayesfitness.com</a></p>
-    </footer>
+
+```
+<section id="privacidade">
+  <h2>Política de Privacidade</h2>
+  <p class="updated">Última atualização: junho de 2026</p>
+
+  <article>
+    <h3>1. Quem somos</h3>
+    <p>A saYes é uma aplicação de fitness e dança criada por Yeniffer Campos. Esta Política de Privacidade explica como são recolhidos, utilizados, armazenados e protegidos os dados pessoais dos utilizadores da aplicação saYes.</p>
+  </article>
+
+  <article>
+    <h3>2. Dados pessoais que recolhemos</h3>
+    <p>Podemos recolher os seguintes dados pessoais e informações de utilização:</p>
+    <ul>
+      <li>Nome e endereço de email, para criação e gestão da conta;</li>
+      <li>Objetivo de treino, nível, faixa etária e preferências, para personalizar a experiência na aplicação;</li>
+      <li>Histórico de treinos, aulas desbloqueadas, créditos e progresso na aplicação;</li>
+      <li>Dados técnicos necessários ao funcionamento da aplicação, como identificadores de dispositivo, dados de autenticação e registos técnicos de utilização.</li>
+    </ul>
+    <p>Não recolhemos contactos do dispositivo nem dados de localização precisa.</p>
+  </article>
+
+  <article>
+    <h3>3. Finalidades do tratamento dos dados</h3>
+    <p>Utilizamos os dados pessoais para:</p>
+    <ul>
+      <li>Criar, autenticar e gerir a conta do utilizador;</li>
+      <li>Permitir o acesso às aulas, treinos e funcionalidades da aplicação;</li>
+      <li>Gerir créditos, compras e conteúdos desbloqueados;</li>
+      <li>Personalizar a experiência de treino;</li>
+      <li>Melhorar a segurança, estabilidade e desempenho da aplicação;</li>
+      <li>Cumprir obrigações legais, quando aplicável.</li>
+    </ul>
+    <p>Não vendemos dados pessoais a terceiros.</p>
+  </article>
+
+  <article>
+    <h3>4. Serviços terceiros utilizados</h3>
+    <p>A aplicação pode utilizar serviços técnicos de terceiros, nomeadamente Google Firebase, para autenticação, base de dados, armazenamento, análise técnica, segurança e funcionamento da aplicação. Estes serviços podem tratar dados técnicos e dados associados à conta do utilizador, sempre no âmbito das finalidades descritas nesta política.</p>
+  </article>
+
+  <article>
+    <h3>5. Pagamentos e compras</h3>
+    <p>Quando existam compras, créditos ou pagamentos dentro da aplicação, estes podem ser processados pelas plataformas oficiais das lojas de aplicações ou por prestadores de pagamento externos. A saYes não armazena dados completos de cartões bancários.</p>
+  </article>
+
+  <article>
+    <h3>6. Armazenamento e segurança</h3>
+    <p>Os dados são armazenados em serviços seguros, incluindo infraestruturas da Google Firebase. São aplicadas medidas técnicas e organizativas adequadas para proteger os dados contra acesso não autorizado, perda, alteração ou divulgação indevida.</p>
+  </article>
+
+  <article>
+    <h3>7. Retenção dos dados</h3>
+    <p>Os dados são mantidos enquanto a conta do utilizador estiver ativa ou enquanto forem necessários para prestar o serviço. Se o utilizador eliminar a conta, os dados associados serão apagados ou anonimizados, salvo quando a conservação seja necessária para cumprimento de obrigações legais.</p>
+  </article>
+
+  <article>
+    <h3>8. Direitos dos utilizadores</h3>
+    <p>Nos termos da legislação aplicável de proteção de dados, o utilizador pode solicitar o acesso, correção, exportação, oposição ao tratamento ou eliminação dos seus dados pessoais. Sempre que a aplicação disponibilize essa funcionalidade, a eliminação da conta pode ser feita diretamente nas definições da conta.</p>
+  </article>
+
+  <article>
+    <h3>9. Crianças e menores</h3>
+    <p>A aplicação destina-se a utilizadores com pelo menos 18 anos. Menores de idade não devem utilizar a aplicação sem autorização e supervisão adequada dos respetivos representantes legais.</p>
+  </article>
+
+  <article>
+    <h3>10. Alterações a esta política</h3>
+    <p>Podemos atualizar esta Política de Privacidade para refletir alterações legais, técnicas ou funcionais. A versão atualizada será publicada nesta página com indicação da data da última atualização.</p>
+  </article>
+</section>
+
+<section id="termos">
+  <h2>Termos de Serviço</h2>
+  <p class="updated">Última atualização: junho de 2026</p>
+
+  <article>
+    <h3>1. Aceitação dos termos</h3>
+    <p>Ao criar uma conta ou utilizar a aplicação saYes, o utilizador declara que leu, compreendeu e aceita estes Termos de Serviço. Se não concordar com estes termos, não deve utilizar a aplicação.</p>
+  </article>
+
+  <article>
+    <h3>2. Conta do utilizador</h3>
+    <p>O utilizador é responsável por manter a confidencialidade das suas credenciais de acesso. As informações fornecidas devem ser verdadeiras, completas e atualizadas.</p>
+  </article>
+
+  <article>
+    <h3>3. Créditos, aulas e pagamentos</h3>
+    <p>A saYes pode funcionar com um sistema de créditos ou compras digitais. Cada aula, treino ou conteúdo desbloqueado pode consumir créditos ou exigir pagamento, conforme indicado na aplicação. Os créditos adquiridos não são reembolsáveis, exceto quando tal seja obrigatório por lei ou pelas regras da loja de aplicações aplicável.</p>
+  </article>
+
+  <article>
+    <h3>4. Uso do conteúdo</h3>
+    <p>Os vídeos, aulas, textos, imagens, marcas, design e demais conteúdos da saYes pertencem à saYes, a Yeniffer Campos ou aos respetivos titulares de direitos. O conteúdo destina-se apenas a uso pessoal e não comercial. É proibido copiar, gravar, redistribuir, vender, partilhar publicamente ou reproduzir o conteúdo sem autorização prévia.</p>
+  </article>
+
+  <article>
+    <h3>5. Saúde e segurança</h3>
+    <p>Os conteúdos da saYes envolvem atividade física. Antes de iniciar qualquer programa de exercício, o utilizador deve avaliar a sua condição física e, em caso de dúvida, consultar um profissional de saúde. A utilização da aplicação é feita por conta e risco do utilizador. O utilizador deve parar imediatamente qualquer exercício se sentir dor, tonturas, falta de ar ou desconforto anormal.</p>
+  </article>
+
+  <article>
+    <h3>6. Disponibilidade da aplicação</h3>
+    <p>Procuramos manter a aplicação funcional, segura e atualizada, mas não garantimos disponibilidade permanente, ausência total de erros ou funcionamento ininterrupto.</p>
+  </article>
+
+  <article>
+    <h3>7. Limitação de responsabilidade</h3>
+    <p>Na medida permitida por lei, a saYes não se responsabiliza por danos indiretos, perdas de dados, interrupções de serviço ou lesões decorrentes de uso inadequado da aplicação ou dos exercícios disponibilizados.</p>
+  </article>
+
+  <article>
+    <h3>8. Suspensão ou encerramento de conta</h3>
+    <p>Podemos suspender ou encerrar contas que violem estes termos, pratiquem uso abusivo da aplicação, tentem aceder indevidamente ao sistema ou partilhem conteúdos protegidos sem autorização.</p>
+  </article>
+
+  <article>
+    <h3>9. Alterações aos termos</h3>
+    <p>Podemos atualizar estes Termos de Serviço. O uso continuado da aplicação após a publicação de alterações significa que o utilizador aceita a versão atualizada.</p>
+  </article>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p class="updated">Responsável pelo contacto: saYes / Yeniffer Campos</p>
+
+  <article>
+    <h3>Questões sobre privacidade ou termos</h3>
+    <p>Para qualquer questão relacionada com esta Política de Privacidade, os Termos de Serviço ou o tratamento de dados pessoais, contacta-nos através do email: <a href="mailto:info@sayesfitness.com">info@sayesfitness.com</a>.</p>
+  </article>
+</section>
+
+<footer>
+  <p>© 2026 saYes · Yeniffer Campos<br>
+  Contacto: <a href="mailto:info@sayesfitness.com">info@sayesfitness.com</a></p>
+</footer>
+```
+
   </div>
 </body>
 </html>
